@@ -2651,9 +2651,13 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Bad 'n Boosted",
 		desc: `Base stats of 70 and lower get doubled.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/solomods-megathread.3711007/page-10#post-10384874">Information on Smogon Forums</a>`,
+			`&bullet; <a href="https://discord.gg/vYdSwRreNd">Discussion Server on Discord</a>`,
+		],
 		mod: 'badnboosted',
 		ruleset: ['Standard'],
-		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Eviolite', 'Huge Power', 'Pure Power'],
+		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Eviolite', 'Huge Power', 'Pure Power', 'Espathra'],
 	},
 	{
 		name: "[Gen 9] Bad 'n Boosted Hackmons Cup",
